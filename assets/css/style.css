@@ -13,6 +13,25 @@
     border:10px solid #666;
 }
 
+/*Datos Personales*/
+
+.datos{
+    text-align: initial;
+    padding-top: 100px;
+    padding-left: 2%;
+    font-family: "MyriadPro", "sans-serif";
+    line-height: 1em;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.68);
+}
+
+.datos .h1{
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.68);
+}
+
 /*Fondo de header detras de la foto*/
 
 #hero-section{
@@ -23,6 +42,15 @@
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
 }
 
+.section-acerca-de-mi{
+    background-color: #152126;
+    color: #ede2cd;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
+    padding: 5%;
+    font-family: "Clash Grotesk", Semibold;
+    
+}
+
 #eduacion{
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
@@ -30,5 +58,16 @@
     background-position: left;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
 }
+
+
+.portafolio{
+    background-color: #152126;
+    color: #ede2cd;
+}
+
+.portafolio button .flecha{
+    background-color: black;
+}
+
 
 
