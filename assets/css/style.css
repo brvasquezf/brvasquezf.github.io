@@ -1,5 +1,19 @@
+/*Seccion Body*/
+body{
+    background: #1C2035;
+    font-family: "Inconsolata", monospace;
+    color: white;
+}
 
-/*Imagen de perfil redonda*/
+.navbar{
+    background-color: transparent;
+}
+
+header p,  .h2{
+    color: #A8F049;
+}
+
+/*Seccion Imagen de perfil redonda*/
 
 .imgCenter{
     display: flex;
@@ -10,16 +24,15 @@
     width: 300px;
     height: 380px;
     border-radius: 150px;
-    border:10px solid #666;
+    border:5px solid black ;
 }
 
-/*Datos Personales*/
+/*Seccion Datos Personales*/
 
 .datos{
     text-align: initial;
     padding-top: 100px;
     padding-left: 2%;
-    font-family: "MyriadPro", "sans-serif";
     line-height: 1em;
     color: #ffffff;
     font-weight: bold;
@@ -28,46 +41,142 @@
 
 .datos .h1{
     color: #ffffff;
+    font-size: 60px;
     font-weight: bold;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.68);
 }
 
-/*Fondo de header detras de la foto*/
 
-#hero-section{
-    background-image: url("../img/fondo1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
-}
+.section-acerca-de-mi h2{
+    color: #A8F049;
+    
+    
+} 
 
-.section-acerca-de-mi{
-    background-color: #152126;
-    color: #ede2cd;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
-    padding: 5%;
-    font-family: "Clash Grotesk", Semibold;
+/*Seccion Formacion o Educacion*/
+
+.box-edu{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid 1px;
+    padding: 0.5em;
+
     
 }
 
-#eduacion{
-    background-image: url("../img/fondo1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
+.box-edu p{
+    margin-top: 12px;
+    font-size: 20px;
+
+}
+
+.edu h2{
+    color: #A8F049;
+    
+}
+
+.lugar-edu{
+    color: #A8F049;
+    
 }
 
 
-.portafolio{
-    background-color: #152126;
-    color: #ede2cd;
+
+
+/*Seccion Portafolio*/
+
+.portafolio h2{
+    color: #A8F049;
+    
 }
 
-.portafolio button .flecha{
-    background-color: black;
+
+
+
+
+
+
+/*Conocimientos*/
+
+
+.conocimientos h2{
+    color: #A8F049;
 }
 
+.conocimientos h1{
+    color: #A8F049;
+    font-size: 30px;
+    text-align: left;
+}
+
+.cv_conocimientos{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 2em;
+    width: 95%;
+}
+
+.contenido_modulo{
+    margin-left: 1.5em;
+}
+
+.lista_modulos{
+    font-size: 1.4em;
+    list-style: none;
+    margin-top: 0.5em;
+    padding: 0;
+}
+
+.icon_cv_conocimientos{
+    height: 8.4375em;
+    width: 8.4375em;
+}
+
+.modulo_conocimiento{
+    display: flex;
+    margin-bottom: 3em;
+    width: 40%;
+}
+
+/*Seccion Contacto*/
+
+.contacto h2{
+    color: #A8F049;
+}
+
+.box-box-contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont-git{
+    font-size: 30px;
+    color: #f0e3ca;
+    
+}
+
+.cont-linkedin{
+    font-size: 30px;
+    color: #f0e3ca;
+}
+
+.cont-mail{
+    font-size: 30px;
+    color: #f0e3ca;
+}
+
+.cont-cel{
+    font-size: 25px;
+    color: #f0e3ca;
+}
+
+/*Seccion Footer*/
+
+footer{
+    text-align: center;
+    border-top: solid 2px;
+    padding-top: 10px;
+}
 
 
